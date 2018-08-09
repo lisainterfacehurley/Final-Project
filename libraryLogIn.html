@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Library Log In Page</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../GifLibrary/styles/libraryMain.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../GifLibrary/styles/libraryLogIn.css"/>  
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">   
+    <!-- jQuery -->  
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="../GifLibrary/js/libraryMain.js"></script>
+    <script src="../GifLibrary/js/libraryLogIn.js"></script> 
+    </head>
+    <body>
+  <div class="container-fluid">   
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="./libraryIndex.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./libraryAbout.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./libraryPage.html">Library</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="./librarySignUp.html">Log In</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  <div>
+  <h1 class="center uppercase"><img id="logo" src="../GifLibrary/images/logo1.png"/><br>Best Animated GIF Company</h1>
+  </div>
+      <div class="container login-form">
+	<h2 class="login-title">- Please Log In Here -</h2>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<form>
+				<div class="input-group login-userinput">
+					<span class="input-group-addon"></span>
+					<input id="textEmail" type="text" class="form-control" name="email" placeholder="Email">
+				</div>
+				<div class="input-group">
+					
+					<input id="textPassword" type="password" class="form-control" name="password" placeholder="Password">
+					<span id="showPassword" class="input-group-btn">
+            </span>  
+				</div>
+				<button class="btn btn-primary btn-block login-button" type="submit"><i class="fa fa-sign-in"></i>Log In</button>
+                <input id="errorContainer" type="text" class="form-control" name="errorContainer" placeholder="If the Log In Fails, the Error Message will appear Here.">
+				
+			</form>			
+		</div>
+	</div>
+</div>
+ </body>
+</html>

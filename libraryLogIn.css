@@ -1,0 +1,23 @@
+/* Log In Page Only Styling*/
+ h1, h2, #textEmail, #textPassword, #errorContainer {
+     color: rgb(96, 80, 220);
+ }
+ h2{
+     text-align: center;
+ }
+
+#logo{
+     height: 200px;
+     width: 200px;
+     border-color: rgb(255, 105, 180);
+     border-width: 15px;
+     align-items: center;
+     }
+.foot{
+    background-color: white;
+    color: darkblue;
+    border-color: rgb(0, 204, 255);
+    border-style: ridge;
+    border-width: 6px;
+    height: 115px;
+}
