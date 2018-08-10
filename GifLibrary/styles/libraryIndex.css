@@ -1,0 +1,29 @@
+ /* carousel and 3 column section of Index Page*/
+        .carousel-item{
+            height:600px;
+            width: 100%
+        }
+        .carousel-inner img {
+            margin: auto;
+        }
+        
+        /* 3 Column Section */
+        .col1{
+           background-color: rgb(255, 102, 102);
+        }
+        .col2{
+           background-color: rgb(0, 255, 107);
+            
+        }
+        .col3{
+           background-color: rgb(96, 80, 220);
+        }
+        .col1, .col2, .col3{
+          color: darkblue;
+          border-color: rgb(0, 204, 255);
+          border-style: ridge;
+          border-width: 6px;
+        }
+        .box{
+            height: auto !important;
+        }

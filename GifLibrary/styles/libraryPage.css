@@ -1,0 +1,18 @@
+.parent-container {
+   display: flex;
+}
+ body {
+	margin: 0;
+	background-color: black;
+}
+/* Scroll to Top User Options*/
+#scroll-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+h3{
+    color: darkblue;
+}

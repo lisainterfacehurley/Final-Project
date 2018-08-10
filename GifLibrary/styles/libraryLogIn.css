@@ -1,0 +1,20 @@
+/* Log In Page Only Styling*/
+           body{
+              background-color: rgb(0, 255, 153);
+          }
+          #logo{
+              height: 200px;
+              width: 200px;
+              border-color: rgb(255, 105, 180);
+               border-width: 15px;
+          }
+          h1, h2{
+              color: rgb(96, 80, 220);
+          }
+          h2{
+              text-align: center;
+          }
+         login-form{
+              width:400px;
+          }
+
